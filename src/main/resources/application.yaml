@@ -10,9 +10,8 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQL95Dialect
         temp:
           use_jdbc_metadata_defaults: false
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://192.168.1.163:5432/postgres?currentSchema=springsecurity
-    username: postgres
-    password: postgres
-
+#  datasource:
+#    driver-class-name: org.postgresql.Driver
+#    url: jdbc:postgresql://0.0.0.0:5432/postgres?currentSchema=springsecurity
+#    username: postgres
+#    password: postgres
